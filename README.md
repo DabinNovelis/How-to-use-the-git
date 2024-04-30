@@ -1,5 +1,5 @@
 
-## :hatched_chick::hatched_chick::hatched_chick: **Git 용어정리** :hatched_chick::hatched_chick::hatched_chick:
+## :hatched_chick::hatched_chick::hatched_chick: **Git 용어 정리 및 사용법** :hatched_chick::hatched_chick::hatched_chick:
 
 ### :seedling: **git config**
 
@@ -89,8 +89,32 @@
 #### **모든 태그 push하기**
        $ git pysh origin --tags
 
-#### **원격 저장소에 있는 태그 삭제하기**
+#### :x: **원격 저장소에 있는 태그 삭제하기** 
        $ git push origin --delete v1.2.3
+<br>
+<br>
+
+## :bulb:취소하고 되돌려야 할 때  
+<br>
+
+### :back: **git pull 취소하고 되돌리기** 
+
+      $ git reset --hard ORIC_HEAD
+
+### :back: **git merge 취소하고 되돌리기** 
+
+      $ git reset --merge ORIG_HEAD
+
+### :back: **git commit 취소하고 되돌리기** 
+
+      $ git reset --hard HEAD       # 한 단계 앞 commit이나 commit 실행하기 전 상태로 되돌리는 것이 가능하다. 
+
+### :back: **git add 취소하고 되돌리기** 
+      
+      $ git reset HEAD
+
+
+
 
 --------
 
