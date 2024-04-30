@@ -3,19 +3,19 @@
 
 ### :seedling: **git config**
 
-  1-1) git config에 있는 모든 setting 출력
+  1-1. git config에 있는 모든 setting 출력
 
       $ git config --list
 
-  1-2).gitconfig 파일 열기
+  1-2. gitconfig 파일 열기
   
       $ git config --global -e
 
-  1-3) 기본 에디터 설정
+  1-3. 기본 에디터 설정
   
       $ git config --global core.editor 'code --wait'
 
-  1-4) 사용자 정보 등록
+  1-4. 사용자 정보 등록
   
       $ git config --global user.name  # 'name'
       $ git config --global user.email # 'email'
@@ -23,7 +23,7 @@
       $ git config user.name           # 'user name 확인'
       $ git config user.email          # 'user email 확인'
 
-  1-5) Auto CRLF 설정
+  1-5. Auto CRLF 설정
   
       $ git config --global core.autocrlf true  # Windows 환경
       $ git config --global core.autocrlf input # MAC 환경
@@ -32,11 +32,11 @@
 
 ### :seedling: **Git init & add**
 
-  1-1) git 초기화
+  1-1. git 초기화
 
       $ git init
   
-  1-2) git add
+  1-2. git add
       
       $ git add a.txt        # a.txt 라는 파일 stage
       $ git add a.txt b.txt  # a.txt, b.txt 라는 파일 stage
@@ -80,13 +80,13 @@
 
  ### :seedling: **Git push**
 
-#### **원격 저장소에 커밋 push하기**
+#### :pushpin:**원격 저장소에 커밋 push하기**
        $ git push origin master 
       
-#### **지정 태그 push하기**      
+#### :pushpin:**지정 태그 push하기**      
        $ git push origin --tags
 
-#### **모든 태그 push하기**
+#### :pushpin:**모든 태그 push하기**
        $ git pysh origin --tags
 
 #### :x: **원격 저장소에 있는 태그 삭제하기** 
@@ -94,7 +94,7 @@
 <br>
 <br>
 
-## :bulb:취소하고 되돌려야 할 때  
+### :bulb:취소하고 되돌려야 할 때  
 <br>
 
 ### :back: **git pull 취소하고 되돌리기** 
