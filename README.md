@@ -1,5 +1,5 @@
 
-# :hatched_chick::hatched_chick::hatched_chick: **Git 용어정리** :hatched_chick::hatched_chick::hatched_chick:
+## :hatched_chick::hatched_chick::hatched_chick: **Git 용어정리** :hatched_chick::hatched_chick::hatched_chick:
 
 ### :seedling: **git config**
 
